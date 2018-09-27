@@ -1,0 +1,35 @@
+.nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    
+
+    margin: 0 2rem 0 2rem;
+
+    li {
+        display: inline-block;
+
+       &:not(:first-child){
+            margin-left: 2rem;
+        }
+    }
+
+
+    a {
+      
+      color:white; 
+      padding: 1rem;
+        
+    }
+}
+
+.logo {
+    // background: black;
+}
+
+    
+
+    
